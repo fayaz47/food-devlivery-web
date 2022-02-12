@@ -1,0 +1,9 @@
+{
+  "name": "food-delivery-web-reactjs",
+  "version": "0.0.0",
+  "description": "Food-Delivery-web-reactjs",
+  "main": "server.js",
+  "author": {
+    "name": "Mahammad Fayaz Amarachintha"
+  }
+}
