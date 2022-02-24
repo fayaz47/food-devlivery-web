@@ -1,6 +1,7 @@
 import "./App.css";
 import CallBackExample from "./Callback/CallbackExample";
-import Childrens from "./Childrens";
+import Childrens from "./UseEffect/Childrens";
+import ReducerExample from "./UseReducer/ReducerExample";
 import UseStateExample from "./UseState/UseStateExample";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Childrens />
       <CallBackExample/>
       <UseStateExample/>
+      <ReducerExample/>
     </div>
   );
 }
