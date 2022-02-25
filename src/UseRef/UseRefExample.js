@@ -1,6 +1,6 @@
 import {React, useRef} from 'react';
 
-const userRefExample = () => {
+const useRefExample = () => {
     const inputRef = useRef(null);
     const onClick = () => {
     console.log(inputRef.current.value);
@@ -16,4 +16,4 @@ const userRefExample = () => {
 
 };
 
-export default userRefExample;
+export default useRefExample;
