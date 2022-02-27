@@ -1,4 +1,4 @@
-import {react, useEffect, useRef, useLayoutEffect} from 'react';
+import {React, useEffect, useRef, useLayoutEffect} from 'react';
 
 const UseLayoutExample = () => {
  const inputRef = useRef(null);
@@ -7,11 +7,11 @@ const UseLayoutExample = () => {
             inputRef.current.value = "Malli"
         } , []);
   
-    // useEffect(
-    //     () => {
-    //         inputRef.current.value = "Tagore"
-    //     }
-    // )
+    useEffect(
+        () => {
+            inputRef.current.value = "Tagore"
+        }
+    )
 
         return(
         <div className='App'>
