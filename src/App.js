@@ -7,6 +7,7 @@ import UseLayoutExample from "./UseLayoutEffect/UseLayoutExample";
 import ReducerExample from "./UseReducer/ReducerExample";
 import UseRefExample from "./UseRef/UseRefExample";
 import UseStateExample from "./UseState/UseStateExample";
+import MemoExample from "./Memo/MemoExample"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <UseLayoutExample />
       <ImperativeHandleExample/>
       <ContextExample />
+      <MemoExample />
     </div>
   );
 }
