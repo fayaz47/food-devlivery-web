@@ -41,6 +41,7 @@ const findOrphans = (childrens) => {
     <button onClick={ () => {
         setToggle(!toggle); 
     }}> Toggle </button>
+    {toggle && <h1> Memo toggle </h1>}
   </div>
  );
 }
